@@ -1,7 +1,29 @@
 housing_price
 ==============================
 
-Use Kaggle's House Prices - Advance Regression Techniques data set. Train two models, a linear model and the
+The objective of this project is to use Kaggle's Housing Prices - Advance Regression Techniques data set and train two models, a linear model and the
+(approximately) best possible model (using any learner). To find the best model, we will need to do model selection (e.g. fit
+multiple models and try different selection hyperparameters).
+
+Then we will focus on explain the models and Interpretability of each of them.
+
+For Linear model:
+We use the coefficients to explain the linear model.
+
+For Non-linear model:
+We use the following three model-agnostic methods to explain your model.
+
+1. Individual conditional expectation (ICE) plot
+2. Feature importance; Either permutation feature importance (a model agnostic method) decision tree or feature importance (a
+model specific method).
+3. Shapley values
+
+The documentation and the figures can be found in the reports folder. 
+
+As an example, look at the figure below which is showing the features values using SHAP value. 
+
+<img width="554" alt="Screen Shot 2022-12-06 at 11 15 54 AM" src="https://github.com/Mehradgsm78/housing_price/assets/132492356/36d0a6ee-ac00-469b-8ae9-9239b9033707">
+
 
 Project Organization
 ------------
