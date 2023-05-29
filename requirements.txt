@@ -4,6 +4,13 @@
 # external requirements
 click
 Sphinx
+PyPI
+pandas
+matplotlib
+seaborn
+numpy
+scipy
+scikit-learn
 coverage
 awscli
 flake8
